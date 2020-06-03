@@ -1,22 +1,24 @@
 import React from 'react';
 import './Topbar.css';
+import Logo from './logo.png'
 
 class TopBar extends React.Component {
 	render() {
 		return(
-			<div className="topbar">
-	            <ul>
-	                <li>
-	                  <a href="imieicorsi"> I miei corsi</a>
-	                </li>
-	                <li>
-	                  <a href="#contatti">Contatti</a>
-	                </li>
-	                <li>
-	                  <a href="#contatti">PNL</a>
-	                </li>
-	            </ul>   
-            </div>
+			<header className="app-header">
+				<img src={Logo} className="app-logo" alt="logo" />
+	            <div>
+	                <div>
+	                  <a className= 'topbar-content' href="imieicorsi"> I miei corsi</a>
+	                </div>
+	                <div>
+	                  <a className= 'topbar-content' href="#contatti">Contatti</a>
+	                </div>
+	                <div>
+	                  <a className= 'topbar-content' href="#PNL">PNL</a>
+	                </div>
+	            </div>   
+            </header>
 		);
 	}
 }

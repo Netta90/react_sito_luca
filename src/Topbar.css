@@ -1,13 +1,23 @@
-.app-header {
+  .app-header {
     width: 100%;
     height: 3rem;
-    border-bottom: 0.4rem solid #80224a;
-    background-color: #grey;
+    border-bottom: 0.4rem solid #B2B2B2;
+    background-color: #EFEFEF;
     color: white;
 
 }
+
+
 .app-header::after {
     clear: both;
+}
+
+.app-logo {
+    position: relative;
+    height: 90%;
+    margin-right: 10px;
+    float: left;
+    border-radius: 100px;
 }
 
 
@@ -15,10 +25,12 @@
     position: relative;
     height: 100%;
     float: left;
-    padding: 0.5rem;
-    font-weight: 600;
-    font-size: 1.5rem;
+    padding: 0.7rem;
+    font-weight: 300;
+    font-size: 1.3rem;
     box-sizing: border-box;
+    color: #4F4F4F ;
+    text-decoration: none;
 }
 .topbar-content::after {
     clear: both;
