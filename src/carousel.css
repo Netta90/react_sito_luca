@@ -1,0 +1,38 @@
+.message{
+	padding: ;
+    background-color: grey;
+    text-align: center;
+    height: 200px;
+    width: 500px;
+    color: white;
+    opacity: 0.5;
+    display: inline-block;
+    margin-left: 400px ;
+    font-size: 40px;
+}
+
+.prima{
+   margin-left: 600px;
+    width: 300px;
+   
+}
+
+
+.terza {
+	
+    
+}
+
+
+.borderbuttom{
+	border-bottom: 1px solid white;
+    padding-top: 44px;
+}
+
+
+.FotoLuca{
+ background-image: url('lucaz.jpg');
+ height: 450px;
+ background-repeat: no-repeat;
+
+}
