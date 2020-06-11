@@ -4,21 +4,27 @@ import Seconda from './seconda.png';
 import Terza from './terza.png';
 import Carousel from 'react-bootstrap/Carousel';
 
+import  './carousel.css';
+
 class Carosel extends React.Component {
 	render() {
 		return(
 			<Carousel>
 			  <Carousel.Item>
-			    <img
-			      className="d-block w-100"
-			      src={Prima}
-			      alt="First slide"
-			    />
-		       <Carousel.Caption>
-			      <h3>First slide label</h3>
-			      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+			    <div			      
+			    className="d-block w-100 FotoLuca"
+			      alt="First slide">
+
+		       <Carousel.Caption className="message prima">
+			     <div className="borderbuttom">Falchi Luca </div>
+			     <div>PNL Coaching </div>
+
+	        		
+		    			
 			    </Carousel.Caption>
+			   </div>
 			  </Carousel.Item>
+
 			  <Carousel.Item>
 			    <img
 			      className="d-block w-100"
@@ -27,8 +33,7 @@ class Carosel extends React.Component {
 			    />
 
 			    <Carousel.Caption>
-			      <h3>Second slide label</h3>
-			      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			      <h3 className="message seconda">Vivi libero da restrizioni</h3>
 			    </Carousel.Caption>
 			  </Carousel.Item>
 			  <Carousel.Item>
@@ -39,8 +44,8 @@ class Carosel extends React.Component {
 			    />
 
 			    <Carousel.Caption>
-			      <h3>Third slide label</h3>
-			      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+				 	<h3 className="message terza">I risultati sono come un eco:
+	    			Se non ti piace quello che arriva devi cambiare quello che invii.</h3>
 			    </Carousel.Caption>
 			  </Carousel.Item>
 			</Carousel>
