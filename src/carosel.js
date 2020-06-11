@@ -9,7 +9,7 @@ class Carosel extends React.Component {
 	render() {
 		return(
 			<Carousel>
-			  <Carousel.Item className = {}>
+			  <Carousel.Item >
 			    <img
 			      className="d-block w-100"
 			      src={Prima}
