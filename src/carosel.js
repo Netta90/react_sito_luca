@@ -4,7 +4,7 @@ import Seconda from './seconda.png';
 import Terza from './terza.png';
 import Carousel from 'react-bootstrap/Carousel';
 
-import  './carousel.css';
+import './carousel.css';
 
 class Carosel extends React.Component {
 	render() {
@@ -23,6 +23,7 @@ class Carosel extends React.Component {
 		    			
 			    </Carousel.Caption>
 			   </div>
+
 			  </Carousel.Item>
 
 			  <Carousel.Item>
@@ -31,7 +32,6 @@ class Carosel extends React.Component {
 			      src={Seconda}
 			      alt="Third slide"
 			    />
-
 			    <Carousel.Caption>
 			      <h3 className="message seconda">Vivi libero da restrizioni</h3>
 			    </Carousel.Caption>
@@ -40,12 +40,19 @@ class Carosel extends React.Component {
 			    <img
 			      className="d-block w-100"
 			      src={Terza}
-			      alt="Third slide"
+				  alt="Third slide"
 			    />
+				 <Carousel.Item>
+				 <label>
+					<h3>Vivi libero da restrizioni</h3>
+				</label>
+				</Carousel.Item>
 
 			    <Carousel.Caption>
+
 				 	<h3 className="message terza">I risultati sono come un eco:
 	    			Se non ti piace quello che arriva devi cambiare quello che invii.</h3>
+
 			    </Carousel.Caption>
 			  </Carousel.Item>
 			</Carousel>
