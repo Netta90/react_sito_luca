@@ -81,7 +81,28 @@ class Content extends React.Component {
 						</svg>
 					</div>
 				</div>
-				
+				<div class="contatti" id="contatti">
+					<h2>Contatti</h2>
+					<p> Se Ti interessa approfondire l'argomento o ti rivedi in uno degli esempi sopra illustrato, che aspetti? Contattami ad uno dei seguenti indirizzi:</p>
+					<div class="container">
+						<div class="row">
+							<div class="column col-sm-4 mycol">
+								<a class="btn btn-primary btn-lg megabutton" href="mailto:luka@merda.com">Inviami una mail</a>
+							</div>
+							<div class="column col-sm-4 mycol">
+								<a class="btn btn-primary btn-lg megabutton" href="skype:lukaMerda">Aggiungimi su Skype</a>
+							</div>
+							<div class="column col-sm-4 mycol">
+								<a class="btn btn-primary btn-lg megabutton" href="https://www.udemy.com/lucaMerda">Raggiungimi su Udemy</a>
+							</div>
+						</div>
+					</div>
+
+
+
+
+				</div>
+
 
 			</div>
 		);

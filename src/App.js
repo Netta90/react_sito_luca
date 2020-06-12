@@ -3,6 +3,8 @@ import './App.css';
 import TopBar from './top-bar';
 import Carosel from './carosel';
 import Content from './content';
+import Footer from './Footer';
+import './Footer.css';
 import './Topbar.css';
 
 class App extends React.Component {
@@ -14,6 +16,7 @@ class App extends React.Component {
 			<TopBar/>
 			<Carosel/>
 			<Content/>
+			<Footer/>
 			</div>
 		);
 
