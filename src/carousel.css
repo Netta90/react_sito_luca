@@ -1,5 +1,4 @@
 .message{
-	padding: ;
     background-color: grey;
     text-align: center;
     height: 200px;
@@ -7,19 +6,22 @@
     color: white;
     opacity: 0.5;
     display: inline-block;
-    margin-left: 400px ;
-    font-size: 40px;
+    margin-left: 500px;
+    font-size: 37px;
+    float: none;
 }
+
 
 .prima{
    margin-left: 600px;
     width: 300px;
+    padding-bottom: 122px;
    
 }
 
 
 .terza {
-	
+    padding-bottom: 122px;
     
 }
 
@@ -30,9 +32,7 @@
 }
 
 
-.FotoLuca{
- background-image: url('lucaz.jpg');
- height: 450px;
- background-repeat: no-repeat;
+.seconda{
+    padding-bottom: 172px;
 
 }
