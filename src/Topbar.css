@@ -5,17 +5,19 @@
     background-color: #EFEFEF;
     color: white;
 
+
 }
 
 
 .app-header::after {
     clear: both;
+    margin:3%;
 }
 
 .app-logo {
     position: relative;
-    height: 90%;
-    margin: 1px;
+    height: 75%;
+    margin: 0.5rem;
     float: left;
     border-radius: 100px;
 }
@@ -31,6 +33,7 @@
     box-sizing: border-box;
     color: #4F4F4F ;
     text-decoration: none;
+    margin:0.5%;
 }
 .topbar-content::after {
     clear: both;
