@@ -12,31 +12,35 @@
 }
 
 
-.prima{
-   margin-left: 600px;
-    width: 300px;
-    padding-bottom: 122px;
-   
-}
-
 
 .terza {
-    padding-bottom: 122px;
+    background-image: url("success.jpg");
+    background-size: cover;
+    width: 100%;height: 750px;
     
 }
 
 
-.borderbuttom{
-	border-bottom: 1px solid white;
-    padding-top: 44px;
-}
 
 
 .seconda{
-    padding-bottom: 172px;
+    background-image: url("senza.png");
+    background-size: cover;
+    width: 100%;height: 750px;
 
 }
 
-.grandezza{
-   max-height: 550px;
+.prima {
+   background-image: url("nuova.png"); 
+   background-size: cover;
+   width: 100%;height: 750px;
+}
+
+.misuraCarosel{
+    max-height: 750px;
+}
+
+.borderbuttom{
+	border-bottom: 1px solid white;
+    padding-top: 44px;
 }
