@@ -10,7 +10,7 @@ class Content extends React.Component {
 	render() {
 		return (
 
-			<div>
+			<div className='style'>
 				<h2 className='title first featurette-heading' >Prima di tutto, mi presento:</h2>
 				<h3 className='title featurette-heading'>Sono Falchi Luca sono un Licensed NLP Coach e Master Pratictioner.</h3>
 				<p className='and text-muted'>Ovvero?</p>
@@ -33,8 +33,8 @@ class Content extends React.Component {
 				</section>
 				<div className='contentName'>
 				<hr className="featurette-divider" />
-				<div className="row featurette">
-					<div className="col-md-7">
+				<div className="row featurette sfondo">
+					<div className="col-md-7 ">
 						<h2 classNames="featurette-heading">Ma che cos'è esattamente la Neuro Linguistica? <span class="text-muted">provo a spiegarlo in breve:
 							</span></h2>
 				<p className="lead">La programmazione neuro linguistica (PNL), è un metodo di comunicazione e un sistema di "life coaching” o meglio definito come «un approccio alla comunicazione volta allo sviluppo personale.

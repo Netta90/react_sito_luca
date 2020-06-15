@@ -6,13 +6,18 @@
   -webkit-column-gap: 1em;
   column-count: 3;
   column-gap: 1em;
+  
 }
 
 .contentName{
   margin:2.5%;
+ 
 }
 
-
+.sfondo{
+  background-color: darkgrey;
+  color: aliceblue;
+}
 
 
 
@@ -40,6 +45,7 @@
 
 .imagetwo{
   width: 300px;
+  margin-left: 155px;
 }
 
 
@@ -56,3 +62,14 @@
 .megabutton{
   margin: 0;
 }
+
+
+.imageOne{
+  width: 500px;
+  height: 500px;
+  margin-left: 120px;
+}
+
+
+
+

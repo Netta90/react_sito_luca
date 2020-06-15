@@ -24,14 +24,14 @@
 
 
 .seconda{
-    background-image: url("senza.png");
+    background-image: url("nuovo.png");
     background-size: cover;
     width: 100%;height: 750px;
 
 }
 
 .prima {
-   background-image: url("nuova.png"); 
+   background-image: url("salva.jpg"); 
    background-size: cover;
    width: 100%;height: 750px;
 }
