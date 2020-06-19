@@ -21,10 +21,8 @@
 }
 
 .sfondo{
-  background-color: rgb(202, 199, 199);
-  color: aliceblue;
-  padding: 0%;
-
+  
+  padding: 2%;
   
 }
 
@@ -44,8 +42,8 @@
 }
 
 .foto{
-   float: right;
- width: 30px;
+  float: right;
+  width: 30px;
 }
 
 
@@ -71,9 +69,10 @@
 
 
 .imageOne{
-  width: 500px;
-  height: 500px;
-  margin-left: 120px;
+  width: 80%;
+  height: 80%;
+  margin-left: 1%;
+  margin-top: 15%;
 }
 
 
