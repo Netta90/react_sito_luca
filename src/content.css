@@ -1,5 +1,5 @@
 .name {
-  padding: 1.5em;
+ 
   -moz-column-count: 3;
   -moz-column-gap: 1em;
   -webkit-column-count: 3;
@@ -9,14 +9,18 @@
   
 }
 
-.contentName{
-  margin:2.5%;
+.contentName {
+  margin-right: 0;
  
 }
 
 .sfondo{
   background-color: darkgrey;
   color: aliceblue;
+  margin: 0;
+  padding: 0;
+
+  
 }
 
 
@@ -39,9 +43,6 @@
  width: 30px;
 }
 
-.imageOne{
-  width: 400px;
-}
 
 .imagetwo{
   width: 300px;
