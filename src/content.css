@@ -1,5 +1,6 @@
 .style{
   font-family: 'Lato', sans-serif;
+  margin: 2.5%;
 }
 
 
@@ -15,24 +16,16 @@
 }
 
 .contentName {
-<<<<<<< HEAD
   margin-right: 0;
-=======
-  margin:2.5%;
->>>>>>> fb9fc664bfd5afcbcd90f124b158e188e5d350dd
  
 }
 
 .sfondo{
   background-color: rgb(202, 199, 199);
   color: aliceblue;
-  margin: 0;
-  padding: 0;
+  padding: 0%;
 
-<<<<<<< HEAD
   
-=======
->>>>>>> fb9fc664bfd5afcbcd90f124b158e188e5d350dd
 }
 
 
