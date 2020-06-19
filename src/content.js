@@ -32,7 +32,7 @@ class Content extends React.Component {
 
 				</section>
 				<div>
-					<hr className="featurette-divider" />
+					<hr className="featurette-divider"/>
 					<div className="row featurette sfondo">
 						<div className="col-md-7 no-padding contentName">
 							<h2 classNames="featurette-heading">Ma che cos'è esattamente la Neuro Linguistica? <span class="text-muted">provo a spiegarlo in breve:
@@ -51,7 +51,7 @@ class Content extends React.Component {
 							<img src={ImageOne} className='imageOne' />
 						</div>
 					</div>
-					<hr className="featurette-divider" />
+					<hr className="featurette-divider"/>
 
 					<div className="row featurette">
 						<div className="col-md-7 order-md-2">
