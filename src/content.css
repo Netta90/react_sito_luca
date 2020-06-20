@@ -1,6 +1,9 @@
 .style{
   font-family: 'Lato', sans-serif;
+  font-size:  1rem;
+  text-align: left;
   margin: 2.5%;
+  
 }
 
 
@@ -14,37 +17,32 @@
   column-gap: 1em;
   
 }
-
-.contentName {
-  margin-right: 0;
- 
+#p{
+  margin-top: 20px;
 }
 
-.sfondo{
-  
-  padding: 2%;
-  
+.altro{
+
+  text-align: center;
+  margin-bottom: 2.5rem;
 }
 
+.left{
+  text-align: left;
+}
 
 
 .title{
-	text-align: center;
+	text-align: justify;
 
 }
 
 .first{
-	margin-top: 30px;
+  margin-top: 30px;
+  text-align: center;
 }
 
-.and{
-	text-align:center;
-}
 
-.foto{
-  float: right;
-  width: 30px;
-}
 
 
 .imagetwo{
@@ -69,10 +67,7 @@
 
 
 .imageOne{
-  width: 80%;
-  height: 80%;
-  margin-left: 1%;
-  margin-top: 15%;
+ margin-left: 20%;
 }
 
 

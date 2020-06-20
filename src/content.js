@@ -1,6 +1,6 @@
 import React from 'react';
 import './content.css';
-import ImageOne from './pensiero.jpg';
+import ImageOne from './work.png';
 import ImageTwo from './images.png'
 
 
@@ -10,11 +10,10 @@ class Content extends React.Component {
 	render() {
 		return (
 
-			<div className='style'>
-				<h2 className='title first featurette-heading' >Prima di tutto, mi presento:</h2>
-				<h3 className='title featurette-heading'>Sono Falchi Luca sono un Licensed NLP Coach e Master Pratictioner.</h3>
-				<p className='and text-muted'>Ovvero?</p>
-				<section className="content name contentName">
+			<div className='style '>
+				<h2 className="first featurette-heading " >Prima di tutto, mi presento:</h2>
+				<h3 className="featurette-heading altro">Sono Falchi Luca sono un Licensed NLP Coach e Master Pratictioner.</h3>
+				<section className="name">
 					<p>Un modo un po’ macchinoso per dire che le mie competenze rientrano nel campo dello sviluppo personale.
 					Chi si rivolge a me avrà un’ aiuto concreto nel raggiungere i propri obbiettivi.
 					Quante volte vi è capitato di pensare:” Oh vorrei tanto raggiungere quell’obbilettivo”?
@@ -33,11 +32,11 @@ class Content extends React.Component {
 				</section>
 				<div>
 					<hr className="featurette-divider" />
-					<div className="row featurette sfondo">
-						<div className="col-md-7 no-padding contentName">
-							<h2 classNames="featurette-heading">Ma che cos'è esattamente la Neuro Linguistica? <span class="text-muted">provo a spiegarlo in breve:
+					<div className="row featurette  background">
+						<div className="col-md-7 no-padding">
+							<h2 classNames="featurette-heading altro">Ma che cos'è esattamente la Neuro Linguistica? <span class="text-muted ">provo a spiegarlo in breve:
 							</span></h2>
-							<p className="lead">La programmazione neuro linguistica (PNL), è un metodo di comunicazione e un sistema di "life coaching” o meglio definito come «un approccio alla comunicazione volta allo sviluppo personale.
+							<p className="left">La programmazione neuro linguistica (PNL), è un metodo di comunicazione e un sistema di "life coaching” o meglio definito come «un approccio alla comunicazione volta allo sviluppo personale.
 							ideato in CaliclassNamefornia negli anni settanta del XX secolo da Richard Bandler e John Grinder. Il nome deriva dall'idea che ci sia una connessione fra i processi neurologici ("neuro"), il linguaggio ("linguistico") e gli schemi comportamentali appresi con l'esperienza ("programmazione"), affermando che questi schemi possono essere organizzati per raggiungere specifici obiettivi.
 							L'idea centrale della PNL è che l’individuo comunichi interamente con quelle che sono le sue convenzioni sociali il suo linguaggio e fisiologia affinché possa percepirne i vantaggi e trarne forza e stimoli necessari al raggiungimento di obiettivi,  serenità individuale o sociale,
 							l'interpretazione soggettiva di questa struttura dà significato al mondo. Modificando i significati attraverso una trasformazione della struttura percettiva .
@@ -53,12 +52,12 @@ class Content extends React.Component {
 					</div>
 					<hr className="featurette-divider" />
 
-					<div className="row featurette">
+					<div className="row featurette title">
 						<div className="col-md-7 order-md-2">
-							<h2 className="featurette-heading">	Mi occupo di: <span class="text-muted">See for yourself.</span>
+							<h2 className="featurette-heading">	Mi occupo di: <span className="text-muted">See by yourself.</span>
 							</h2>
-							<p className="lead">
-								<ul>
+							<p class="">
+								<ul >
 									<li> Sviluppo personale.</li>
 									<li> Coaching personale.</li>
 									<li>Gestione dello stress.</li>
@@ -81,10 +80,10 @@ class Content extends React.Component {
 						<div className="container">
 							<div className="row">
 								<div className="column col-sm-4 mycol">
-									<a className="btn btn-primary btn-lg megabutton" href="mailto:luka@merda.com">Inviami una mail</a>
+									<a className="btn btn-primary btn-lg megabutton" href="mailto:falchiluca1988@gmail.com">Inviami una mail</a>
 								</div>
 								<div className="column col-sm-4 mycol">
-									<a className="btn btn-primary btn-lg megabutton" href="skype:lukaMerda">Aggiungimi su Skype</a>
+									<a className="btn btn-primary btn-lg megabutton" href="skype:https://l.facebook.com/l.php?u=https%3A%2F%2Fjoin.skype.com%2Finvite%2FnX1KI0CWEIrU%3Ffbclid%3DIwAR3aVuBY7XTDBaFF0UjtGVQLlR-iPYhjfIuvY-Yt3wh9UE8nCPA4Uw3qOGA&h=AT1v3pzzSCNoz037JAMxytXPPPHyHiHne8ENtUNwQZKP02oY8tJ5-o5Zeui3rIUe8HwStoGny-Rcby0coEHeJ0_yFyooyqf4iDu0axvE_Z5dtepjL7qJkaSI8OxBF4J0n5Q">Aggiungimi su Skype</a>
 								</div>
 								<div className="column col-sm-4 mycol">
 									<a className="btn btn-primary btn-lg megabutton" href="https://www.udemy.com/lucaMerda">Raggiungimi su Udemy</a>
