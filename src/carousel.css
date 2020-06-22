@@ -3,17 +3,17 @@
 .terza {
     background-image: url("success.jpg");
     background-size: cover;
-    width: 100%;height: 750px;
-    
+    width: 100%;
+    height: 750px;  
 }
-
 
 
 
 .seconda{
     background-image: url("nuovo.png");
     background-size: cover;
-    width: 100%;height: 750px;
+    width: 100%;
+    height: 750px;
 
 }
 
@@ -22,11 +22,21 @@
    background-size: cover;
    width: 100%;
    height: 750px;
+   z-index: 3;
 }
 
 .misuraCarosel{
-    max-height: 100%;
-    z-index: inherit;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    visibility: inherit;
+    filter: alpha(opacity=60); 
+    z-index: 2;
+    flood-opacity: 6;
+
 }
 
 .borderbuttom{

@@ -1,13 +1,13 @@
   
   
   .app-header {
-    width: 100%;
-    height: 300px;
     border-bottom: 0.4rem solid #B2B2B2;
     background-color:transparent;
     color: white;
-    z-index: 1;
-
+    z-index: 2;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -19,25 +19,26 @@
 
 .app-logo {
     position: relative;
-    height: 140px;
+    height: 290px;
     margin: 0;
-    float: left;
+    float: lft;
     border-radius: 100%;
 }
 
 
 .topbar-content {
     position: relative;
-    height: 50%;
-    float: left;
-    padding: 2.7rem;
+    height: 21%;
+    float: right;
+    padding: 0.2rem;
     font-weight: 336;
-    font-size: 1.3rem;
-    box-sizing: border-box;
+    font-size: 19px;
+    box-sizing: content-box;
     color: #64A6B5;
     text-decoration: none;
-    margin: 2.5%;
+    margin: 61px;
 }
+
 .topbar-content::after {
     clear: both;
 }
