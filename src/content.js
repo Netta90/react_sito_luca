@@ -12,7 +12,7 @@ class Content extends React.Component {
 
 			<div className='style '>
 				<h2 className="first featurette-heading " >Prima di tutto, mi presento:</h2>
-				<h3 className="featurette-heading altro">Sono Falchi Luca sono un Licensed NLP Coach e Master Pratictioner.</h3>
+				<h3 className="featurette-heading text-center">Sono Falchi Luca sono un Licensed NLP Coach e Master Pratictioner.</h3>
 				<section className="name">
 					<p>Un modo un po’ macchinoso per dire che le mie competenze rientrano nel campo dello sviluppo personale.
 					Chi si rivolge a me avrà un’ aiuto concreto nel raggiungere i propri obbiettivi.
@@ -32,31 +32,33 @@ class Content extends React.Component {
 				</section>
 				<div>
 					<hr className="featurette-divider" />
-					<div className="row featurette  background">
-						<div className="col-md-7 no-padding">
-							<h2 classNames="featurette-heading altro">Ma che cos'è esattamente la Neuro Linguistica? <span class="text-muted ">provo a spiegarlo in breve:
+					<div className="row featurette background">
+						<div className="col-md-7">
+							<div className="no-padding">
+								<h2 classNames="featurette-heading text-center">Ma che cos'è esattamente la Neuro Linguistica? <span class="text-muted ">provo a spiegarlo in breve:
 							</span></h2>
-							<p className="left">La programmazione neuro linguistica (PNL), è un metodo di comunicazione e un sistema di "life coaching” o meglio definito come «un approccio alla comunicazione volta allo sviluppo personale.
-							ideato in CaliclassNamefornia negli anni settanta del XX secolo da Richard Bandler e John Grinder. Il nome deriva dall'idea che ci sia una connessione fra i processi neurologici ("neuro"), il linguaggio ("linguistico") e gli schemi comportamentali appresi con l'esperienza ("programmazione"), affermando che questi schemi possono essere organizzati per raggiungere specifici obiettivi.
-							L'idea centrale della PNL è che l’individuo comunichi interamente con quelle che sono le sue convenzioni sociali il suo linguaggio e fisiologia affinché possa percepirne i vantaggi e trarne forza e stimoli necessari al raggiungimento di obiettivi,  serenità individuale o sociale,
-							l'interpretazione soggettiva di questa struttura dà significato al mondo. Modificando i significati attraverso una trasformazione della struttura percettiva .
-							la persona può intraprendere cambiamenti di atteggiamento e di comportamenti. La percezione del mondo, e di conseguenza la risposta ad esso, possono essere modificate applicando opportune tecniche di cambiamento.
-							La PNL ha tra i suoi scopi, quindi, l'obiettivo di sviluppare abitudini/reazioni di successo, amplificando i comportamenti  efficaci e diminuendo quelli indesiderati.
-							Il cambiamento può avvenire anche riproducendo ("modellando") precisamente i comportamenti delle persone di successo allo scopo di creare un nuovo "strato" di esperienza (una tecnica chiamata modeling, o modellamento).
-
+								<p className="left">La programmazione neuro linguistica (PNL), è un metodo di comunicazione e un sistema di "life coaching” o meglio definito come «un approccio alla comunicazione volta allo sviluppo personale.
+								ideato in CaliclassNamefornia negli anni settanta del XX secolo da Richard Bandler e John Grinder. Il nome deriva dall'idea che ci sia una connessione fra i processi neurologici ("neuro"), il linguaggio ("linguistico") e gli schemi comportamentali appresi con l'esperienza ("programmazione"), affermando che questi schemi possono essere organizzati per raggiungere specifici obiettivi.
+								L'idea centrale della PNL è che l’individuo comunichi interamente con quelle che sono le sue convenzioni sociali il suo linguaggio e fisiologia affinché possa percepirne i vantaggi e trarne forza e stimoli necessari al raggiungimento di obiettivi,  serenità individuale o sociale,
+								l'interpretazione soggettiva di questa struttura dà significato al mondo. Modificando i significati attraverso una trasformazione della struttura percettiva .
+								la persona può intraprendere cambiamenti di atteggiamento e di comportamenti. La percezione del mondo, e di conseguenza la risposta ad esso, possono essere modificate applicando opportune tecniche di cambiamento.
+								La PNL ha tra i suoi scopi, quindi, l'obiettivo di sviluppare abitudini/reazioni di successo, amplificando i comportamenti  efficaci e diminuendo quelli indesiderati.
+								Il cambiamento può avvenire anche riproducendo ("modellando") precisamente i comportamenti delle persone di successo allo scopo di creare un nuovo "strato" di esperienza (una tecnica chiamata modeling, o modellamento).
 							</p>
+							</div>
 						</div>
-						<div className="col-md-5">
+						<div className="col-md-5 no-padding">
 							<img src={ImageOne} className='imageOne' />
 						</div>
 					</div>
 					<hr className="featurette-divider" />
 
 					<div className="row featurette title">
-						<div className="col-md-7 order-md-2">
+
+						<div className="col-md-7 order-md-2 no-padding">
 							<h2 className="featurette-heading">	Mi occupo di: <span className="text-muted">See by yourself.</span>
 							</h2>
-							<p class="">
+							<p>
 								<ul >
 									<li> Sviluppo personale.</li>
 									<li> Coaching personale.</li>
@@ -69,6 +71,7 @@ class Content extends React.Component {
 
 								</ul>
 							</p>
+
 						</div>
 						<div className="col-md-5 order-md-1">
 							<img src={ImageTwo} className='imagetwo' />
