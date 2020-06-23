@@ -19,7 +19,7 @@ class Carosel extends React.Component {
 				</Carousel.Item>
 
 				<Carousel.Item>
-				
+
 					<div
 						className="d-block w-100 seconda">
 					</div>
@@ -27,12 +27,12 @@ class Carosel extends React.Component {
 
 				</Carousel.Item>
 				<Carousel.Item>
-				
+
 					<div
 						className="d-block w-100 terza">
 					</div>
 
-					
+
 					<Carousel.Item>
 						<label>
 
