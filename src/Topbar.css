@@ -44,7 +44,7 @@
     font-weight: 336;
     font-size: 19px;
     box-sizing: content-box;
-    color: #64A6B5;
+    color: #1e4c57;
     text-decoration: none;
     margin: 61px;
 }
@@ -52,3 +52,98 @@
 .topbar-content::after {
     clear: both;
 }
+
+
+.header-backround-trasparent{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+
+}
+
+.color-header{
+    border-color: #e8e8e8;
+    border-bottom-width: 0px;
+    position: relative;
+    border-bottom-style: solid;
+}
+
+.header-backround{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #0a0a0a4d;
+}
+
+.header-container{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: #e1e1e1;
+    max-width: 1180px;
+}
+
+.header-containerinte-clearfix{
+    zoom: 1;
+    border-color: #e1e1e1;
+    position: relative;
+}
+.logo-iner{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+
+}
+
+.logo{
+    width: 200px;
+    height: 146px;
+    border-radius: 100%;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.second-header{
+    text-align: center;
+    position: relative;
+    line-height: 0;
+    zoom: 1;
+    border-color: #e1e1e1;
+    
+    padding-top: 25px;
+}
+
+.main-menu{
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principale{
+    list-style: none;
+    margin-left: 0px;
+    
+
+}
+.menu{
+    padding-left: 0px;
+    padding-right: 21px;
+    float: left;
+    cursor: pointer
+}
+
+.slide-bar{
+    width: 50px;
+    left: 256.516px;
+    display: block;
+    overflow: hidden;}
+    

@@ -1,9 +1,12 @@
+
+
 .style{
   font-family: 'Lato', sans-serif;
   font-size:  1rem;
   text-align: left;
   color:#4A4344;
-  margin-top: 200px;
+   margin-top:120px;
+  background-size: contain;
 }
 
 
@@ -22,6 +25,7 @@
 .text-center{
 
   text-align: center;
+  
 
 }
 
