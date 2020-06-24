@@ -11,21 +11,21 @@
 
 .app-header::after {
     clear: both;
-    margin:3%;
+    
 }
 
 
 .onebox_topbar{
     height: 100px;
     width: 100%;
-    background-color: #88888834;
+    background-color: #00020591;
 
 }
 
 .twobox_topbar{
        width: 100%;
-       height: 100px;   
-       background-color: #88888834;
+       height: 50px;   
+       background-color: #00020557;
     }
 
 
