@@ -1,6 +1,6 @@
 import React from 'react';
 import './Topbar.css';
-import Logo from './LucaF.png';
+import Logo from './FF.png';
 
 
 class TopBar extends React.Component {

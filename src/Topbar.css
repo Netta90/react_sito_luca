@@ -67,6 +67,9 @@
     border-bottom-width: 0px;
     position: relative;
     border-bottom-style: solid;
+    line-height :1.7;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-backround{
@@ -139,6 +142,7 @@
     padding-right: 21px;
     float: left;
     cursor: pointer
+    
 }
 
 .slide-bar{
@@ -146,4 +150,3 @@
     left: 256.516px;
     display: block;
     overflow: hidden;}
-    
