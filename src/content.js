@@ -10,7 +10,7 @@ class Content extends React.Component {
 	render() {
 		return (
 
-			<div className='style '>
+			<div className='style'>
 				<h2 className="first featurette-heading " >Prima di tutto, mi presento:</h2>
 				<h3 className="featurette-heading text-center">Sono Falchi Luca sono un Licensed NLP Coach e Master Pratictioner.</h3>
 				<section className="name">
@@ -101,6 +101,7 @@ class Content extends React.Component {
 				</div>
 
 			</div>
+
 		);
 	}
 }
