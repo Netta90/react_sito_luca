@@ -21,9 +21,9 @@
    background-image: url("salva.jpg"); 
    background-size: cover;
    width: 100%;
-   z-index: 4;
+   z-index: 3;
    height: 700px;
-   margin: 0;
+   
 }
 
 

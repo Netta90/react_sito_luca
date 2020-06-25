@@ -5,6 +5,7 @@
     right: 0px;
     z-index: 99;
     line-height: 0.7;
+    position: absolute;
    
 
 }
@@ -14,7 +15,7 @@
     border-bottom-width: 0px;
     position: relative;
     border-bottom-style: solid;
-    line-height :1.7;
+    line-height:1.7;
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,7 +55,7 @@
     width: 70%;
     border-radius: 100%;
     vertical-align: middle;
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
 }
 
@@ -62,7 +63,7 @@
 .second-header{
     text-align: center;
     position: relative;
-    line-height: 0;
+    line-height: 1;
     zoom: 1;
     border-color: #e1e1e1;
     padding-top: 25px;
@@ -73,7 +74,7 @@
     outline: 0;
     vertical-align: baseline;
     background: transparent;
-    margin: -32px;
+    margin: 0;
     padding: 0;
 }
 
