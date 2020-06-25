@@ -1,0 +1,65 @@
+.topbar-container {
+    width: 100%;
+    height: 10rem;
+    max-height: 10rem;
+    position: relative;
+    z-index: 100;
+}
+
+.topbar-high-container {
+    height: 3rem;
+    max-height: 3rem;
+    background-color: #51749b;
+}
+
+.topbar-low-container {
+    height: 7rem;
+    max-height: 7rem;
+    background-color: #7294b9;
+}
+
+.topbar-container .center-logo {
+    height: 7rem;
+    text-align: center;
+}
+
+.topbar-container .center-logo > .logo-container {
+    background-color: #51749b;
+    height: 130%;
+    border-radius: 0 0 50% 50%;
+    text-align: center;
+}
+
+.topbar-container .center-logo > .logo-container > img {
+    width: 80%;
+    margin-top: -2.5rem;
+}
+
+.topbar-container .menu {
+    font-size: 1.3rem;
+    padding-top: 2rem;
+}
+
+.topbar-container .menu > ul {
+    list-style-type: none;
+}
+
+.topbar-container .menu > ul > li {
+    display: inline-block;
+    margin-right: 1.8rem;
+    padding: 5px;
+    min-width: 4rem;
+    text-align: center;
+}
+
+.topbar-container .menu > ul > li:hover {
+    border-bottom: 5px solid #51749b;
+}
+
+.topbar-container .left-menu {
+    text-align: right;
+}
+
+.topbar-container .right-menu {
+    text-align: left;
+}
