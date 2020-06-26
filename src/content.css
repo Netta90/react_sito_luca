@@ -57,6 +57,8 @@
 .imagetwo{
   width: 300px;
   margin-left: 155px;
+  float: right; 
+  padding: 15px 0 15px 15px; 
 }
 
 
