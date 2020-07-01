@@ -1,9 +1,16 @@
+
+
+
 .topbar-container {
     width: 100%;
     height: 10rem;
     max-height: 10rem;
     position: relative;
     z-index: 100;
+    @media (maxWidth: '400px'){
+        float: none;
+        width: 100%;
+    }
 }
 
 .topbar-high-container {
