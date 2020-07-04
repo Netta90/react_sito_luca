@@ -1,6 +1,6 @@
 import React from 'react';
 import './content.css';
-import ImageOne from './work.png';
+import ImageOne from './storia.png';
 import ImageTwo from './images.png'
 
 
