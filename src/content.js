@@ -11,23 +11,26 @@ class Content extends React.Component {
 		return (
 
 			<div className='style'>
+				<a name="fehuea"></a>
 				<h2 className="first featurette-heading " >Prima di tutto, mi presento:</h2>
 				<h3 className="featurette-heading text-center">Sono Falchi Luca sono un Licensed NLP Coach e Master Pratictioner.</h3>
-				<section className="name">
-					<p>Un modo un po’ macchinoso per dire che le mie competenze rientrano nel campo dello sviluppo personale.
-					Chi si rivolge a me avrà un’ aiuto concreto nel raggiungere i propri obbiettivi.
-					Quante volte vi è capitato di pensare:” Oh vorrei tanto raggiungere quell’obbilettivo”?
-				Quante ancora vi demoralizzate o peggio vi autosabotate con scuse inutili che per qualche motivo non riuscite a contrastare?</p>
+				<section className="row">
+					<div className="col-md-4">
+						Un modo un po’ macchinoso per dire che le mie competenze rientrano nel campo dello sviluppo personale.
+						Chi si rivolge a me avrà un’ aiuto concreto nel raggiungere i propri obbiettivi.
+						Quante volte vi è capitato di pensare:” Oh vorrei tanto raggiungere quell’obbilettivo”?
+						Quante ancora vi demoralizzate o peggio vi autosabotate con scuse inutili che per qualche motivo non riuscite a contrastare?
+					</div>
 
-					<p>
+					<div className="col-md-4">
 						Bhe qui entro in gioco io, il tuo personal Coach!!
 						Il tutto con metodi, tecniche e una comunicazione positiva inconscia, che porterà la vostra mente ad aprirsi alle nuove possibilità,a liberarsi dalle catene invisibili che la mente vi impone e ad aprirvi ai nuovi orizzonti, scoprirete cosi di essere capaci di cose straordinarie.
-				</p>
-					<p>
+					</div>
+					
+					<div className="col-md-4">
 						il mio lavoro consiste in farti ottenere tutto questo.
 						In Quasi Dieci anni di esperienza in questo settore ho visto Le persone che si sono affidate alle mie consulenze prendere in mano la loro vita, esattamente come ho fatto io a suo tempo, e farne qualcosa di meraviglioso.
-
-				</p>
+					</div>
 
 				</section>
 				<div>
@@ -35,7 +38,7 @@ class Content extends React.Component {
 					<div className="row featurette background">
 						<div className="col-md-7">
 							<div className="no-padding">
-								<h2 classNames="featurette-heading text-center">Ma che cos'è esattamente la Neuro Linguistica? <span class="text-muted ">provo a spiegarlo in breve:
+								<h2 className="featurette-heading text-center">Ma che cos'è esattamente la Neuro Linguistica? <span class="text-muted ">provo a spiegarlo in breve:
 							</span></h2>
 								<p className="left">La programmazione neuro linguistica (PNL), è un metodo di comunicazione e un sistema di "life coaching” o meglio definito come «un approccio alla comunicazione volta allo sviluppo personale.
 								ideato in CaliclassNamefornia negli anni settanta del XX secolo da Richard Bandler e John Grinder. Il nome deriva dall'idea che ci sia una connessione fra i processi neurologici ("neuro"), il linguaggio ("linguistico") e gli schemi comportamentali appresi con l'esperienza ("programmazione"), affermando che questi schemi possono essere organizzati per raggiungere specifici obiettivi.
@@ -73,8 +76,8 @@ class Content extends React.Component {
 							</p>
 
 						</div>
-						<div className="col-md-5 order-md-1">
-							<img src={ImageTwo} className='imagetwo' />
+						<div className="col-md-5 order-md-1 imagetwo">
+							<img src={ImageTwo} />
 						</div>
 					</div>
 					<div className="contatti" id="contatti">

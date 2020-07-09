@@ -12,20 +12,21 @@ class TopBar extends React.Component {
 						<img className="logo" src={Logo} />
 					</div>
 				</div>
-				<div className="collapse navbar-collapse border-boxTwo" id="navbarCollapse">
-					<ul className="navbar-nav mr-auto">
-						<li className="nav-item active">
-							<a className="nav-link" href="#">Home</a>
-						</li>  
-						<li className="nav-item">
-							<a className="nav-link" href="#">informazioni</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">Contatti</a>
-						</li>
 
-
-					</ul>
+				<div className="border-boxTwo">
+					<div className="collapse navbar-collapse" id="navbarCollapse">
+						<ul className="navbar-nav mr-auto">
+							<li className="nav-item active">
+								<a className="nav-link" href="#">Home</a>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link" href="#">informazioni</a>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link" href="#">Contatti</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 

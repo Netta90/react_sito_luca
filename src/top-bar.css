@@ -28,6 +28,6 @@
     text-align: center;
 }
 
-.border-boxTwo{
-    display: block;
+.border-boxTwo, .navbar{
+    display: block !important;
 }
