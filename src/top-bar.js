@@ -3,7 +3,6 @@ import Logo from './NuovoLucs.png';
 import './top-bar.css';
 
 
-
 class TopBar extends React.Component {
 	render() {
 		return (
