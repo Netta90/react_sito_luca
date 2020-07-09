@@ -1,5 +1,6 @@
 import React from 'react';
-import TopbarNew from'./top-bar';
+
+import './App.css';
 import Carosel from './carosel';
 import Content from './content';
 import Footer from './Footer';
@@ -13,7 +14,7 @@ class App extends React.Component {
 	
 	return (
 			<div className='app'>
-            <TopbarNew/>
+               <TopbarNew/>
 			<Carosel/>
 			<Content/>
 			<Footer/>
