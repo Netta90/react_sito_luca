@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
 import TopbarNew from './top-bar';
+import './App.css';
 import Carosel from './carosel';
 import Content from './content';
 import Footer from './Footer';
 import './Footer.css';
-import './Topbar.css';
-import { useMediaQuery } from 'react-responsive';
+import './App.css';
+
 
 class App extends React.Component {
 

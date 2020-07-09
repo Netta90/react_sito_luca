@@ -1,0 +1,30 @@
+.logo {
+width: 200px;
+border-radius: 100%;
+
+
+}
+
+.bg-dark-new{
+    height: 250px;
+    background-color:#0b0b0b57;
+    position: absolute;
+}
+
+.fixed-top{
+    position: absolute !important;
+}
+
+.box-logo{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+
+
+.misure-box{
+    width: 1180px;
+    text-align: center;
+}
