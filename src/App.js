@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css
+import './App.css';
 
 import Carosel from './carosel';
 import Content from './content';
@@ -14,7 +14,7 @@ class App extends React.Component {
 	
 	return (
 			<div className='app'>
-            <TopbarNew/>
+               <TopbarNew/>
 			<Carosel/>
 			<Content/>
 			<Footer/>
