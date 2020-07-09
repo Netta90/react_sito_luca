@@ -22,10 +22,7 @@ class TopBar extends React.Component {
 							<a className="nav-link" href="#">Home</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">Contatti</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">Contatti</a>
+							<a className="nav-link" href="#">informazioni</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">Contatti</a>

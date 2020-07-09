@@ -1,5 +1,5 @@
 import React from 'react';
-
+import TopbarNew from './top-bar'
 import './App.css';
 import Carosel from './carosel';
 import Content from './content';
