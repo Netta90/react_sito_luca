@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import TopbarNew from './top-bar';
 import Carosel from './carosel';
 import Content from './content';
 import Footer from './Footer';

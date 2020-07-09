@@ -9,7 +9,7 @@ class TopBar extends React.Component {
 			<div className=" navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
 				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-					<image className="logo" src={Logo} />
+					<img className="logo" src={Logo} />
 					<span className="navbar-toggler-icon"></span>
 				</button>
 				<div className="collapse navbar-collapse" id="navbarCollapse">
