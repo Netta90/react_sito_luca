@@ -9,7 +9,7 @@ class TopBar extends React.Component {
 			<div className=" navbar navbar-expand-md navbar-dark fixed-top bg-dark-new">
 				<div className="box-logo">
 					<div className="misure-box">
-						<img className="logo" src={Logo} />
+						<img className="logo" src={Logo}/>
 					</div>
 				</div>
 

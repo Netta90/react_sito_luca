@@ -11,10 +11,6 @@ class Carosel extends React.Component {
 					<div
 						className="d-block w-100 prima">
 					</div>
-
-
-
-
 				</Carousel.Item>
 
 				<Carousel.Item>
