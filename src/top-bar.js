@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './statua.png';
+import Logo from './NuovoLo.png';
 import './top-bar.css';
 
 
