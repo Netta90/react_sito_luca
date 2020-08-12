@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './NuovoLucs.png';
+import Logo from './Novologo.png';
 import './top-bar.css';
 
 
@@ -14,10 +14,10 @@ class TopBar extends React.Component {
 				</div>
 
 				<div className="border-boxTwo">
-					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 						<span className="navbar-toggler-icon"></span>
 					</button>
-					<div className="navbar-collapse collapse show" id="navbarCollapse">
+					<div className="navbar-collapse collapse" id="navbarCollapse">
 						<ul className="navbar-nav mr-auto">
 							<li className="nav-item active">
 								<a className="nav-link" href="#">Home</a>
