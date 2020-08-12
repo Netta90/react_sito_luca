@@ -1,6 +1,7 @@
 .logo {
-    width: 100px;
+    width: 150px;
     border-radius: 100%;
+   
 
 }
 
@@ -27,6 +28,3 @@
     text-align: center;
 }
   
-.border-boxTwo, .navbar{
-    
-}
