@@ -3,9 +3,9 @@
     height: 20%;
     left: 0px;
     right: 0px;
-    z-index: 99;
+    z-index: 1;
     line-height: 0.7;
-    position: absolute;
+    position:relative;
    
 
 }
